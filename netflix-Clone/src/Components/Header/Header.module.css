@@ -1,0 +1,66 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgb(148, 132, 132); */
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: red; */
+}
+.nav_black{
+    background-color: rgb(20, 20, 20);
+}
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+
+}
+.header_left{
+    /* width: 140%; */
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .ul_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    /* width: 100%; */
+    gap: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+}
+.header_right ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+}
+.right_ul_nav  {
+    cursor: pointer; 
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header {
+  font-family: 'Lexend', sans-serif;
+}
+
