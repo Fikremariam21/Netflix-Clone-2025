@@ -1,0 +1,52 @@
+/* The first style makes the footer content to centered */
+
+.footer_outer_container{
+    background-color: #111;
+    color: grey;
+    display: flex;
+    justify-content: center;
+
+}
+/* This is very important why? Limits the width of the content inside .footer_outer_container to 60% of the screen width, ensuring the footer doesn't stretch too wide.*/
+.footer_inner_container{
+    width: 60%;
+
+}
+
+/* The below makes the width of the icon div 12% as a result the facebook and other icons to be displayed vertically. but the second line makes the icons to be flexed, vertically*/
+.footer_icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #fff;
+}
+
+/* The below style targets the footer content/text */
+.footer_data{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_data ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:  12vh;
+}
+.footer_data ul li{
+    cursor: pointer;
+}
+.service_code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 15%;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.copy_write{
+    font-size: 12px;
+}
