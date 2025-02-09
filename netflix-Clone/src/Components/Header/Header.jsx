@@ -19,7 +19,7 @@ const Header = () => {
             <li>Movies</li>
             <li>Latest</li>
             <li> MyList</li>
-            <li> Browse by Languages</li>
+            <li>Browse by Languages</li> 
           </ul>
         </div>
         <div className={styles.header_right}>
@@ -27,7 +27,7 @@ const Header = () => {
             <li><SearchIcon/></li>
             <li><NotificationsNoneIcon/></li> 
             <li><AccountBoxIcon /></li>
-            <li><ArrowDropDownIcon/></li>
+            <li><ArrowDropDownIcon/></li> 
           </ul> 
         </div>
       </div>
