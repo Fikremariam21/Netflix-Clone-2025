@@ -41,6 +41,10 @@
     padding: 0;
     cursor: pointer;
 }
+.ul_nav a{
+    text-decoration: none;
+    color: white;
+}
 .header_right{
     display: flex;
     align-items: center;
@@ -55,7 +59,10 @@
     cursor: pointer; 
 
 }
-
+.right_ul_nav a{
+    text-decoration: none;
+    color: white;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .header {

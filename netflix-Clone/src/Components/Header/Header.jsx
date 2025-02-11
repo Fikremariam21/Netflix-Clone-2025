@@ -5,6 +5,7 @@ import SearchIcon from '@mui/icons-material/Search'
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className={styles.header_outer_container
@@ -13,7 +14,6 @@ const Header = () => {
         <div className={styles.header_left}>
           <ul className={styles.ul_nav}>
             <li> <img src={logo} alt="Netflix-logo" width={"100"} /> </li>
-            {/* <li>Netflix</li> */}
             <li> Home</li>
             <li>TvShow</li>
             <li>Movies</li>
@@ -26,7 +26,8 @@ const Header = () => {
           <ul className={styles.right_ul_nav}>
             <li><SearchIcon/></li>
             <li><NotificationsNoneIcon/></li> 
-            <li><AccountBoxIcon /></li>
+            <li> <Link to='/Login'> <AccountBoxIcon /></Link></li>
+            {/* <li><AccountBoxIcon /></li> */}
             <li><ArrowDropDownIcon/></li> 
           </ul> 
         </div>
@@ -36,5 +37,7 @@ const Header = () => {
 }
 
 export default Header
+
+
 
 
